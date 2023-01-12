@@ -30,6 +30,8 @@ enum Verbs {
   v28('vraždit','vraždi', false, true),
   v29('vařit','vař', true, false),
   v30('meditovat','medituj', true, false),
+  v31('relaxovat','relaxuj', true, false),
+  v32('uklízet','uklízej', true, false),
   ;
 
   final String c1;
