@@ -16,7 +16,7 @@ Image getRandomLocalImage() {
 Future<Image> getRandomImage() async {
   http.Response response;
   try {
-    response = await http.get(Uri.parse('https://picsum.photos/2160'))
+    response = await http.get(Uri.parse('https://picsum.photos/1350'))
         .timeout(const Duration(seconds: 4));
   } catch (e) {
     await Future.delayed(const Duration(seconds: 2));
